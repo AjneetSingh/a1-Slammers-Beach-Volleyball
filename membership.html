@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slammers Beach Volleyball Club Membership</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <link href="mystyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="container"> <!-- this is the container for all our body-->
+
+    <div id="header">
+        <img class="logo" src="vector_volleyball1.jpg" alt="logo"/>
+        <h1>Slammers Beach Volley Ball Club</h1>
+        <p class="tagline"> Fun and fitness for the whole family</p>
+    </div>
+
+    <div id="navigation">
+        <ul class="site-navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+    </div> <!--this is the end of the navigation section-->
+
+    <div id="content">
+
+        <div class="signup-section">
+
+        <h2>Sign-Up Form</h2>
+        <p>Please complete the following membership form</p>
+
+        <form method="get" action="form.html">
+            <fieldset>
+
+                <legend>Membership Form</legend>
+            <p>
+                <label for="yourname">Contact Person Name</label>
+                <input type="text" name="yourname" id="yourname"/>
+            </p>
+            <p>
+                <label for="yournumber">Contact Phone Number</label>
+                <input type="text" name="yournumber" id="yournumber"/>
+            </p>
+            <p>
+                <label for="youremail">Contact Email Address</label>
+                <input type="text" name="youremail" id="youremail"/>
+            </p>
+             <p>
+                 <label for="day">Select a competion day</label>
+                 <select name="day" id="day">
+                    <option>Monday</option>
+                     <option>Tuesday</option>
+                     <option>Wednesday</option>
+                     <option>Thursday</option>
+                     <option>Friday</option>
+                     <option>Saturday</option>
+                 </select>
+             </p>
+                <p>
+                    <label for="time">Select a competion time</label>
+                    <select name="time" id="time">
+                        <option>Afternoon</option>
+                        <option>Evening</option>
+
+                    </select>
+                </p>
+                <p><label for="comments">Any additional information can be added here</label></p>
+                <p><textarea name="comments" rows="7" cols="40" id="comments"></textarea></p>
+                <p>
+                 <label for="checkbox">Tick the box after you have read and agree with playing guidelines below</label>
+                 <input type="checkbox" name="checkbox" id="checkbox"/>
+             </p>
+
+            <p><input type="submit"/></p>
+
+            </fieldset>
+        </form>
+        </div>
+
+        <div class="guidelines-section">
+
+        <h2>Playing Guidelines</h2>
+        <p>Participants in Slammers Beach Volleyball play at their own risk. Anyone playing is responsible for their own safety and should only play if they are capable. Check with your doctor before you begin.
+            Game fees must be paid prior to the start of the game. Games may be cancelled by players up to 4 hours before hand to get a refund. Without 4 hours' notice, participants will forfeit the game and be charged 50% of the game fee.
+        </p>
+    </div>
+    </div>
+
+    <div id="footer">
+        <div class="contact-info">
+        <p><strong>Contact</strong><br>
+            Phone:47712233<br>
+            Fax:47712244<br>
+            Address: 123 Pokemund Street, Cairsville<br>
+            email: slammers@gmail.com
+        </p>
+
+        <p class="footer-copyright"><small>Designed by Ajay Singh, James Cook University 2017</small></p>
+
+    </div>
+
+</div> <!--end of container div-->
+</body>
+</html>

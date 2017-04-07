@@ -1,0 +1,207 @@
+/* Style sheet for Slammers Beach Volley Ball*/
+
+/*--Basic Reset*/
+
+html,body {padding:0;  margin:0;}
+h1,h2,h3,h4,h5,h6 {font-weight: normal}
+img {max-width:100%;vertical-align: middle}
+button {cursor: pointer}
+ul {list-style: none}
+
+/*--Typography*/
+
+
+body,input,textarea,button {
+    font-family: 'PT-Serif','PT-Sans',sans-serif;
+    font-size: 1em;
+}
+
+p{line-height: 1.25em;
+margin-bottom: 1.25em;
+}
+
+.alert{
+    color: darkblue;
+    font-size: 1.25em;
+    font-style: italic;
+}
+
+.links-list li{line-height: 2em;}
+
+.announcements li{
+    list-style-type: circle;
+    margin: 1em;
+}
+
+/*form*/
+fieldset{border-radius: 1.5em;}
+
+/*Tables*/
+
+table{
+    border-collapse:collapse;
+    border: 1px solid black;
+}
+th{
+    text-align: center;
+    border: 1px solid black;
+    background:blue;
+    background: linear-gradient(darkblue,white);
+    padding:0.2em;
+}
+td{
+    border: 1px solid black;
+    padding:0.2 em;
+}
+
+.events td{height: 2em;width: 12em;text-align: justify;}
+.contacts td{height: 2em;width: 12em;text-align: justify;}
+
+/* -- Class selector*/
+
+.logo {
+    margin: 0;
+    padding:0;
+    width:240px;
+    height:160px;
+    float:left;
+}
+
+.tagline{
+    font-size: medium;
+    font-style: italic;
+    color:white;
+}
+
+.home-announcements{padding: 1em; background-color: lightgray;border-radius: 2em;}
+.home-announcements p{line-height: 2em;}
+.highlight-announcements{text-align: center;font-size: 1.5em;}
+.home-sponsors {padding: 1em;}
+
+.ladder{border: 1px solid black;}
+
+.aboutus-content{width: 90%; margin: 2em; }
+
+.signup-section{margin:2em;}
+.guidelines-section{margin: 2em;}
+
+.events-inner{margin: 2em;}
+
+.content-inner{margin:2em;}
+
+.header-button{width:200px;float:right;}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    padding: 1.5em;
+    text-decoration: none;
+}
+
+
+/*-- Site Navigation Menu*/
+
+.site-navigation {float:left;}
+.site-navigation li {display: inline-block;}
+.site-navigation ul {list-style: none;}
+.site-navigation a {
+    border-radius: 1em;
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    margin: auto;
+    font-size: 1.25em;
+}
+.site-navigation a:active{background-color: blue; color: white;}
+.site-navigation a:hover{background-color: white;}
+
+
+.aboutus-navigation li {display: inline-block}
+.aboutus-navigation a {display:block;padding: 1em;}
+
+
+/*--Site footer--*/
+
+.footer-copyright{
+    display: block;
+    position:relative;
+    text-align:center;
+    margin-bottom: 1em;
+    color: black;
+}
+
+/*--logical divisions*/
+
+.container {
+    margin: 0 auto;
+    background-image: url("sand.jpg");
+    clear: both;
+}
+
+#header{
+    margin:auto;
+    padding:1em;
+    width:70%;
+    height: 160px;
+    text-align: center;
+    background: rgba(73,155,234,1);
+    background: -moz-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,0.89) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,0.89)));
+    background: -webkit-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,0.89) 100%);
+    background: -o-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,0.89) 100%);
+    background: -ms-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,0.89) 100%);
+    background: linear-gradient(to bottom, rgba(73,155,234,1) 0%, rgba(32,124,229,0.89) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=0 );
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+
+}
+
+#navigation{
+    margin:auto;
+    text-align: center;
+    padding:1em;
+    width:70%;
+    height:50px;
+    background:linear-gradient(white,darkorange);
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+
+#content {
+    margin: auto;
+    padding: 1em;
+    width: 70%;
+    height: auto;
+    background-color: white;
+    border-radius: 2em;
+}
+
+#footer{
+    margin:auto;
+    padding: 1em;
+    width:70%;
+    height:140px;
+    background: rgba(73,155,234,1);
+    background: -moz-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,0.9) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,0.9)));
+    background: -webkit-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,0.9) 100%);
+    background: -o-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,0.9) 100%);
+    background: -ms-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,0.9) 100%);
+    background: linear-gradient(to bottom, rgba(73,155,234,1) 0%, rgba(32,124,229,0.9) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=0 );
+    border-radius: 2em;
+}
+
+/*Gallery*/
+
+.galleryphoto {
+    margin: 2em;
+    padding: 1em;
+    border-bottom: 2px solid blue;
+    text-align: center;
+}
+
+
+
